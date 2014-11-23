@@ -1,0 +1,13 @@
+﻿
+multiple inheritence via interfaces
+
+http://stackoverflow.com/questions/17865620/typescript-multiple-inheritance-workarounds
+https://typescript.codeplex.com/discussions/400494
+http://typescript.codeplex.com/discussions/444039
+
+
+
+
+rosyln .net source code
+
+http://referencesource.microsoft.com/

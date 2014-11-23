@@ -68,17 +68,52 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="typescript-links.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="3rdParty\typescript-collections\collections.ts" />
+    <TypeScriptCompile Include="3rdParty\typescript-collections\ICollection.ts" />
+    <TypeScriptCompile Include="3rdParty\typescript-collections\ICompare.ts" />
+    <TypeScriptCompile Include="3rdParty\typescript-collections\IEnumerable.ts" />
+    <TypeScriptCompile Include="3rdParty\typescript-collections\IEnumerator.ts" />
+    <TypeScriptCompile Include="3rdParty\typescript-collections\IList.ts" />
+    <TypeScriptCompile Include="3rdParty\typescript-collections\LinkedList.ts" />
+    <TypeScriptCompile Include="Parser\DefaultNamespace.ts" />
+    <TypeScriptCompile Include="Parser\ElementType.ts" />
+    <TypeScriptCompile Include="Parser\ManagedNamespace.ts" />
+    <TypeScriptCompile Include="Parser\MCIgnorableNamespace.ts" />
+    <TypeScriptCompile Include="Parser\PrimitiveNamespace.ts" />
+    <TypeScriptCompile Include="Parser\XamlContextInternal.ts" />
     <TypeScriptCompile Include="Parser\XamlElementInfo.ts" />
+    <TypeScriptCompile Include="Parser\XamlElementInfoNative.ts" />
     <TypeScriptCompile Include="Parser\XamlElementInstance.ts" />
+    <TypeScriptCompile Include="Parser\XamlElementInstanceNative.ts" />
     <TypeScriptCompile Include="Parser\XamlNamespace.ts" />
     <TypeScriptCompile Include="Parser\XamlParserInfo.ts" />
+    <TypeScriptCompile Include="Parser\XmlNamespace.ts" />
+    <TypeScriptCompile Include="Parser\XNamespace.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="System.Xml.XDocument\IXmlLineInfo.ts" />
+    <TypeScriptCompile Include="System.Xml.XDocument\Xml\Linq\BaseUriAnnotation.ts" />
+    <TypeScriptCompile Include="System.Xml.XDocument\Xml\Linq\LineInfoAnnotation.ts" />
+    <TypeScriptCompile Include="System.Xml.XDocument\Xml\Linq\XContainer.ts" />
+    <TypeScriptCompile Include="System.Xml.XDocument\Xml\Linq\XDocument.ts" />
+    <TypeScriptCompile Include="System.Xml.XDocument\Xml\Linq\XElement.ts" />
+    <TypeScriptCompile Include="System.Xml.XDocument\Xml\Linq\XmlNodeType.ts" />
+    <TypeScriptCompile Include="System.Xml.XDocument\Xml\Linq\XName.ts" />
+    <TypeScriptCompile Include="System.Xml.XDocument\Xml\Linq\XNode.ts" />
+    <TypeScriptCompile Include="System.Xml.XDocument\Xml\Linq\XObject.ts" />
+    <TypeScriptCompile Include="_unsorted\ArgumentNullException.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="System.Xml.XmlDocument\" />
+    <Folder Include="System.Xml.XPath.XDocument\" />
+    <Folder Include="System.Xml.XPath.XmlDocument\" />
+    <Folder Include="System.Xml.XPath\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
